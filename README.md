@@ -1,3 +1,5 @@
+![CI](https://github.com/anton-fomenko/payment-gateway-dotnet/actions/workflows/ci.yml/badge.svg)
+
 # Payment Gateway Challenge - .NET Version
 
 ## Table of Contents
