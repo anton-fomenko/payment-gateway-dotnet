@@ -12,9 +12,7 @@
 - [Further Improvements](#further-improvements)
 
 ## Deployment
-- **Cloud:** To make it easier to test the solution, I deployed the Payment Gateway API to Heroku. You can access it using the following URL: https://payment-gateway-dotnet-2d21ecea5065.herokuapp.com/swagger/index.html  
-- The bank simulator also deployed at https://bank-simulator-585c5811fce8.herokuapp.com/ so that API could talk to it.
-- **docker-compose:** I've updated an existing docker-compose and included the Payment Gateway API there in addition to the existing bank simulator.
+- **docker-compose:**
   - Run `docker-compose up` to start the services.
   - The API will be available at `http://localhost:5000`.
   - The bank simulator will be available at `http://localhost:8080`.
