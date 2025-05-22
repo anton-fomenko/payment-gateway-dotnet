@@ -72,7 +72,7 @@
 
 ## Testing
 
-- **End-to-end Tests:** Test the full flow from the API to the bank simulator, which is hosted in Heroku Cloud.
+- **End-to-end Tests:** Test the full flow from the API to the bank simulator. These tests are excluded from CI to keep the pipeline fast and deterministic. Run them locally with dotnet test --filter Category=EndToEnd after starting docker-compose up.
 - **Integration Tests:** Covers validation, since I rely on framework features such as data annotations and default model binding, and these can't be tested in isolation.
 - **Unit Tests:** Cover the classes in isolation.
 

@@ -14,6 +14,7 @@ using System.Net.Http.Json;
 
 namespace PaymentGateway.Api.EndToEndTests
 {
+    [Trait("Category", "EndToEnd")]
     public class GetPaymentTests : IClassFixture<WebApplicationFactory<Program>>
     {
         private readonly WebApplicationFactory<Program> _factory;

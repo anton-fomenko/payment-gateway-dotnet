@@ -9,4 +9,4 @@ jobs:
         with:
           dotnet-version: '8.x'
       - run: dotnet restore
-      - run: dotnet test
+      - run: dotnet test --filter Category!=EndToEnd
