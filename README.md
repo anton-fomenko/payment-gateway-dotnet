@@ -1,6 +1,7 @@
 ![CI](https://github.com/anton-fomenko/payment-gateway-dotnet/actions/workflows/ci.yml/badge.svg)
 
-# Payment Gateway Challenge - .NET Version
+# Payment Gateway Service ( .NET 8 )
+This project is a .NET-8 demonstration of idempotent, retry-safe card payment processing, originally implemented as a work sample.
 
 ## Table of Contents
 - [Deployment](#deployment)
